@@ -1,0 +1,13 @@
+logging:
+  file:
+    name: application.log
+  level:
+    root: debug
+    web: debug
+
+server:
+  port: 8443
+
+userdatasource:
+  host: jsonmock.hackerrank.com
+  path: api/article_users
